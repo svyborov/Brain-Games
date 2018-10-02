@@ -1,8 +1,7 @@
 {
   "name": "braingames_vsa",
-  "version": "0.2.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.2.1",
+  "description": "Набор мини-игр, запускаемых из консоли. Эти игры похожи на то, что обычно называют 'Brain Games'",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
@@ -14,6 +13,11 @@
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
+  "keywords": [
+  "Brain",
+  "Brain games",
+  "hexlet"
+],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/svyborov/project-lvl1-s356.git"
