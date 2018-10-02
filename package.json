@@ -1,6 +1,6 @@
 {
   "name": "braingames_vsa",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -24,7 +24,9 @@
     "url": "https://github.com/svyborov/project-lvl1-s356/issues"
   },
   "homepage": "https://github.com/svyborov/project-lvl1-s356#readme",
-  "dependencies": {},
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
