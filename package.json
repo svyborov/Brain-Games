@@ -1,6 +1,6 @@
 {
   "name": "braingames_vsa",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "Набор мини-игр, запускаемых из консоли. Эти игры похожи на то, что обычно называют 'Brain Games'",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
@@ -14,10 +14,10 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
-  "Brain",
-  "Brain games",
-  "hexlet"
-],
+    "Brain",
+    "Brain games",
+    "hexlet"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/svyborov/project-lvl1-s356.git"
@@ -35,6 +35,10 @@
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/node": "^7.0.0",
-    "@babel/preset-env": "^7.1.0"
+    "@babel/preset-env": "^7.1.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
