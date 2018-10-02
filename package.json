@@ -1,9 +1,10 @@
 {
   "name": "braingames_vsa",
-  "version": "0.2.3",
+  "version": "0.3.3",
   "description": "Набор мини-игр, запускаемых из консоли. Эти игры похожи на то, что обычно называют 'Brain Games'",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"
