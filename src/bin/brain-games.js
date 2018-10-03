@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-import askUserName from '..';
+import { askUserName, welcome } from '..';
 
-console.log('Welcome to the Brain Games!\n');
-
+welcome();
 askUserName();
