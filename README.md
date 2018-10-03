@@ -8,3 +8,6 @@
 
 # Установка и использование игры Brain-Calc
 [![asciicast](https://asciinema.org/a/UfLRoduN4RE5JB3igidMU48SG.png)](https://asciinema.org/a/UfLRoduN4RE5JB3igidMU48SG)
+
+# Установка и использование игры Brain-GCD
+[![asciicast](https://asciinema.org/a/Ck2OD9xT64lJRrJcrb4rlcAuz.png)](https://asciinema.org/a/Ck2OD9xT64lJRrJcrb4rlcAuz)

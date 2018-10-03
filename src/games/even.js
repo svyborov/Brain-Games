@@ -1,23 +1,26 @@
 import {
-  welcome, randomNumber, userAnswer, numberOfQuestions, askUserName, isEven,
+  randomNumber, game, numberOfQuestions,
 } from '..';
 
-export default () => {
-  welcome();
-  console.log('Answer "yes" if number even otherwise answer "no".\n');
-  const userName = askUserName();
+const gameQuastion = 'Answer "yes" if number even otherwise answer "no".\n';
+const evenMaker = () => {
+  const questions = [];
   for (let i = 0; i < numberOfQuestions; i += 1) {
-    const rNumber = randomNumber();
-    console.log('Question: ', rNumber);
-    const answer = userAnswer();
-    const correctAnswer = isEven(rNumber);
-    if (correctAnswer === answer) {
-      console.log('Correct!');
-    } else {
-      console.log('"', answer, '"', ' is wrong answer ;(. Correct answer was ', '"', correctAnswer, '"');
-      console.log('Let\'s try again,', userName, '!');
-      return;
-    }
+    questions.unshift((String(randomNumber())));
   }
-  console.log('Congratulations,', userName, '!');
+  return questions;
 };
+
+const notAEven = num => (num % 2 === 0 ? 'yes' : 'no');
+
+const correctAnswersMaker = (questionsToAnswer) => {
+  const correctAnswers = [];
+  for (let i = 0; i < numberOfQuestions; i += 1) {
+    correctAnswers.push(notAEven(Number(questionsToAnswer[i])));
+  }
+  return correctAnswers;
+};
+
+const questions = evenMaker();
+const correctAnswers = correctAnswersMaker(questions);
+export default () => game(gameQuastion, questions, correctAnswers);
