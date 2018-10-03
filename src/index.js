@@ -1,41 +1,36 @@
 import readlineSync from 'readline-sync';
 
-export const AskUserName = () => {
+export const askUserName = () => {
   const userName = readlineSync.question('May I have your name? ');
   console.log('Hello, ', userName, '!');
   return userName;
 };
 
-const isEven = (num) => {
-  if (num % 2 === 0) {
-    return true;
-  }
-  return false;
-};
 
-export const YesNo = (userName) => {
-  for (let i = 0; i < 3; i += 1) {
-    const yes = 'yes';
-    const no = 'no';
-    const n = Math.floor(Math.random() * 100);
-    console.log('Question: ', n);
+const randomNumber = () => Math.floor(Math.random() * 100);
+/*
+export const randomOperator = () => {
+  const operators = '+-*';
+  const operator = operators[Math.floor(Math.random() * operators.length)];
+  return operator;
+};
+*/
+
+const isEven = num => (num % 2 === 0 ? 'yes' : 'no');
+
+export const yesNoEven = (userName) => {
+  const numberOfQuestions = 3;
+  for (let i = 0; i < numberOfQuestions; i += 1) {
+    const rNumber = randomNumber();
+    console.log('Question: ', rNumber);
     const answer = readlineSync.question('Your answer: ');
-    if (isEven(n)) {
-      if (answer === yes) {
-        console.log('Correct!');
-      } else {
-        console.log('"', answer, '"', ' is wrong answer ;(. Correct answer was ', '"', yes, '"');
-        console.log('Let\'s try again,', userName, '!');
-        return;
-      }
-    } else if (!isEven(n)) {
-      if (answer === no) {
-        console.log('Correct!');
-      } else {
-        console.log('"', answer, '"', ' is wrong answer ;(. Correct answer was ', '"', no, '"');
-        console.log('Let\'s try again,', userName, '!');
-        return;
-      }
+    const correctAnswer = isEven(rNumber);
+    if (correctAnswer === answer) {
+      console.log('Correct!');
+    } else {
+      console.log('"', answer, '"', ' is wrong answer ;(. Correct answer was ', '"', correctAnswer, '"');
+      console.log('Let\'s try again,', userName, '!');
+      return;
     }
   }
   console.log('Congratulations,', userName, '!');
