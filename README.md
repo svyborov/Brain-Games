@@ -11,3 +11,6 @@
 
 # Установка и использование игры Brain-GCD
 [![asciicast](https://asciinema.org/a/Ck2OD9xT64lJRrJcrb4rlcAuz.png)](https://asciinema.org/a/Ck2OD9xT64lJRrJcrb4rlcAuz)
+
+# Установка и использование игры Brain-Progression
+[![asciicast](https://asciinema.org/a/wPb8ZrLj1RfFHiOhE5RPmhcDF.png)](https://asciinema.org/a/wPb8ZrLj1RfFHiOhE5RPmhcDF)

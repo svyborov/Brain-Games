@@ -1,23 +1,25 @@
-/*
-const randomNumber10 = () => Math.floor(Math.random() * 10);
-const randomNumber100 = () => Math.floor(Math.random() * 100);
+import randomNumber from '../utils';
+import game from '..';
 
+const description = 'What number is missing in this progression?\n';
 const makeProgression = () => {
   const progression = [];
   const progressionSize = 10;
-  const progressionStep = randomNumber10();
-  let porgressionElement = randomNumber100();
+  const progressionStep = randomNumber();
+  let porgressionElement = randomNumber();
   for (let i = 0; i < progressionSize; i += 1) {
-    progression.pop(porgressionElement);
+    progression.push(porgressionElement);
     porgressionElement += progressionStep;
   }
-  return progression
+  return progression;
 };
 
-console.log(makeProgression)
+const questionMaker = () => {
+  const progression = makeProgression();
+  const correctAnswer = progression[4];
+  progression.splice(4, 1, '..');
+  const question = `${progression}`;
+  return [question, correctAnswer];
+};
 
-const answer =
-const makeQuestion = (progression) => {
-
-}
-*/
+export default () => game(description, questionMaker);
