@@ -1,7 +1,5 @@
-import {
-  randomNumber, numberOfQuestions, game,
-} from '..';
-
+import game from '..';
+/*
 
 const gameQuastion = 'Find the greatest common divisor of given numbers.\n';
 
@@ -51,3 +49,4 @@ const questions = questionMaker(numbers1, numbers2);
 const nods = nodMaker(numbers1, numbers2);
 
 export default () => game(gameQuastion, questions, nods);
+*/

@@ -1,6 +1,6 @@
 {
   "name": "braingames_vsa",
-  "version": "0.5.0",
+  "version": "0.5.2",
   "description": "Набор мини-игр, запускаемых из консоли. Эти игры похожи на то, что обычно называют 'Brain Games'",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/svyborov/project-lvl1-s356#readme",
   "dependencies": {
+    "hexlet-pairs": "^1.0.8",
     "readline-sync": "^1.4.9"
   },
   "devDependencies": {
