@@ -10,13 +10,14 @@ const askUserName = () => {
 };
 
 
-export default (gameRules, questionMaker, correctAnswerMaker) => {
+export default (description, questionMaker) => {
   welcome();
-  console.log(gameRules);
+  console.log(description);
   const userName = askUserName();
   for (let i = 0; i < numberOfQuestions; i += 1) {
-    const question = questionMaker();
-    const correctAnswer = correctAnswerMaker(question);
+    const questionAnswer = questionMaker();
+    const question = questionAnswer[0];
+    const correctAnswer = questionAnswer[1];
     console.log('Question: ', `${question}`);
     const answer = userAnswer();
     if (String(correctAnswer) === answer) {

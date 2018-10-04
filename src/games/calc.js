@@ -1,12 +1,16 @@
+import randomNumber from '../utils';
 import game from '..';
 
-const gameQuastion = 'What is the result of the expression?\n';
-const randomNumber = () => Math.floor(Math.random() * 100);
+const operators = '+-*';
+const description = 'What is the result of the expression?\n';
 const randomOperator = () => {
-  const operators = '+-*';
   const operator = operators[Math.floor(Math.random() * operators.length)];
   return operator;
 };
-const questionMaker = () => `${randomNumber()} ${randomOperator()} ${randomNumber()}`;
+const questionMaker = () => {
+  const question = `${randomNumber()} ${randomOperator()} ${randomNumber()}`;
+  const correctAnswer = eval(question);
+  return [question, correctAnswer];
+};
 
-export default () => game(gameQuastion, questionMaker, eval);
+export default () => game(description, questionMaker);
