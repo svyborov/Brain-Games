@@ -1,12 +1,12 @@
 import randomNumber from '../utils';
 import game from '..';
 
-const isEven = num => (num % 2 === 0 ? 'yes' : 'no');
-const description = 'Answer "yes" if number even otherwise answer "no".\n';
+const isEven = num => num % 2 === 0;
+const description = 'Answer "yes" if number even otherwise answer "no".';
 const questionMaker = () => {
   const question = randomNumber();
-  const correctAnswer = isEven(Number(question));
-  return [question, correctAnswer];
+  const correctAnswer = isEven(question) ? 'yes' : 'no';
+  return [question, String(correctAnswer)];
 };
 
 export default () => game(description, questionMaker);
