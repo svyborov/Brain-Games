@@ -14,3 +14,6 @@
 
 # Установка и использование игры Brain-Progression
 [![asciicast](https://asciinema.org/a/wPb8ZrLj1RfFHiOhE5RPmhcDF.png)](https://asciinema.org/a/wPb8ZrLj1RfFHiOhE5RPmhcDF)
+
+# Установка и использование игры Brain-Prime
+[![asciicast](https://asciinema.org/a/3dDBcHJpUyG4o6B4QLmsMLZAb.png)](https://asciinema.org/a/3dDBcHJpUyG4o6B4QLmsMLZAb)
