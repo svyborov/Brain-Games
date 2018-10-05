@@ -15,7 +15,7 @@ const description = 'Answer "yes" if given number is prime. Otherwise answer "no
 const questionMaker = () => {
   const question = randomNumber();
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
-  return [question, String(correctAnswer)];
+  return [question, correctAnswer];
 };
 
 export default () => game(description, questionMaker);

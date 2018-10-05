@@ -1,6 +1,6 @@
 {
   "name": "braingames_vsa",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Набор мини-игр, запускаемых из консоли. Эти игры похожи на то, что обычно называют 'Brain Games'",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",

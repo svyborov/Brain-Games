@@ -7,15 +7,12 @@ const askUserName = () => {
   return userName;
 };
 
-
 export default (description, questionMaker) => {
   console.log('Welcome to the Brain Games!');
   console.log(description, '\n');
   const userName = askUserName();
   for (let i = 0; i < numberOfQuestions; i += 1) {
-    const questionAnswer = questionMaker();
-    const question = questionAnswer[0];
-    const correctAnswer = questionAnswer[1];
+    const [question, correctAnswer] = questionMaker();
     console.log('Question: ', `${question}`);
     const answer = readlineSync.question('Your answer: ');
     if (correctAnswer === answer) {

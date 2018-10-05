@@ -6,7 +6,7 @@ const description = 'Answer "yes" if number even otherwise answer "no".';
 const questionMaker = () => {
   const question = randomNumber();
   const correctAnswer = isEven(question) ? 'yes' : 'no';
-  return [question, String(correctAnswer)];
+  return [question, correctAnswer];
 };
 
 export default () => game(description, questionMaker);
