@@ -3,7 +3,7 @@ import game from '..';
 
 const minPrimeNumber = 2;
 const isPrime = (num) => {
-  for (let i = num - 1; i > minPrimeNumber; i -= 1) {
+  for (let i = minPrimeNumber; i < num; i += 1) {
     if (num % i === 0) {
       return false;
     }
