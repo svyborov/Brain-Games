@@ -1,9 +1,9 @@
 import randomNumber from '../utils';
 import game from '..';
 
-const minPrimeNumber = 2;
+const minimumDivider = 2;
 const isPrime = (num) => {
-  for (let i = minPrimeNumber; i < num; i += 1) {
+  for (let i = minimumDivider; i < num; i += 1) {
     if (num % i === 0) {
       return false;
     }
