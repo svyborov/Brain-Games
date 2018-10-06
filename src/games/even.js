@@ -1,7 +1,6 @@
-import randomNumber from '../utils';
+import { randomNumber, isEven } from '../utils';
 import game from '..';
 
-const isEven = num => num % 2 === 0;
 const description = 'Answer "yes" if number even otherwise answer "no".';
 const questionMaker = () => {
   const question = randomNumber();

@@ -1,9 +1,15 @@
-import randomNumber from '../utils';
+import { randomNumber, isEven } from '../utils';
 import game from '..';
 
-const minimumDivider = 2;
 const isPrime = (num) => {
-  for (let i = minimumDivider; i < num; i += 1) {
+  const minimalOddDivider = 3;
+  if (num === 2) {
+    return true;
+  }
+  if (num <= 1 || isEven(num)) {
+    return false;
+  }
+  for (let i = minimalOddDivider; i < num; i += 2) {
     if (num % i === 0) {
       return false;
     }

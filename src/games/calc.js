@@ -1,4 +1,4 @@
-import randomNumber from '../utils';
+import { randomNumber } from '../utils';
 import game from '..';
 
 const operators = '+-*';
