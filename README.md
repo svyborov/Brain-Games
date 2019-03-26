@@ -13,7 +13,8 @@ $ npm install -g braingames_vsa
 ```
 ## Usage
 ```bash
-$ Welcome to the Brain Game!
+$ brain-progression
+Welcome to the Brain Game!
 What number is missing in this progression?
 
 May I have your name? Sergey
@@ -35,5 +36,4 @@ Congratulations, Sergey!
 3. <a href="https://asciinema.org/a/Ck2OD9xT64lJRrJcrb4rlcAuz" rel="nofollow">Brain-GCD</a> <br>
 4. <a href="https://asciinema.org/a/wPb8ZrLj1RfFHiOhE5RPmhcDF" rel="nofollow">Brain-Progression</a> <br>
 5. <a href="https://asciinema.org/a/3dDBcHJpUyG4o6B4QLmsMLZAb" rel="nofollow">Brain-Prime</a> <br>
-$ brain-progression
 
