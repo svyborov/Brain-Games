@@ -1,10 +1,10 @@
 # project-lvl1-s356
 
-В рамках проекта был реализован набор мини-игр, запускаемых из консоли. Эти игры похожи на то, что обычно называют "Brain Games".
-
 <a href="https://codeclimate.com/github/svyborov/project-lvl1-s356/maintainability"><img src="https://api.codeclimate.com/v1/badges/1e6fbb9aec43c655b2dc/maintainability" /></a>
 <a href="https://codeclimate.com/github/svyborov/project-lvl1-s356/test_coverage"><img src="https://api.codeclimate.com/v1/badges/1e6fbb9aec43c655b2dc/test_coverage" /></a>
 [![Build Status](https://travis-ci.org/svyborov/project-lvl1-s356.svg?branch=master)](https://travis-ci.org/svyborov/project-lvl1-s356)
+
+В рамках проекта был реализован набор мини-игр, запускаемых из консоли. Эти игры похожи на то, что обычно называют "Brain Games".
 
 # Установка и использование игры Brain-Even
 [![asciicast](https://asciinema.org/a/tgXGzeHNzS8LYI0GgiOxI64eW.png)](https://asciinema.org/a/tgXGzeHNzS8LYI0GgiOxI64eW)
