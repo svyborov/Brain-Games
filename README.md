@@ -6,17 +6,10 @@
 
 В рамках проекта был реализован набор мини-игр, запускаемых из консоли. Эти игры похожи на то, что обычно называют "Brain Games".
 
-# Установка и использование игры Brain-Even
-[![asciicast](https://asciinema.org/a/tgXGzeHNzS8LYI0GgiOxI64eW.png)](https://asciinema.org/a/tgXGzeHNzS8LYI0GgiOxI64eW)
+Примеры установки и запуска игр:
 
-# Установка и использование игры Brain-Calc
-[![asciicast](https://asciinema.org/a/UfLRoduN4RE5JB3igidMU48SG.png)](https://asciinema.org/a/UfLRoduN4RE5JB3igidMU48SG)
-
-# Установка и использование игры Brain-GCD
-[![asciicast](https://asciinema.org/a/Ck2OD9xT64lJRrJcrb4rlcAuz.png)](https://asciinema.org/a/Ck2OD9xT64lJRrJcrb4rlcAuz)
-
-# Установка и использование игры Brain-Progression
-[![asciicast](https://asciinema.org/a/wPb8ZrLj1RfFHiOhE5RPmhcDF.png)](https://asciinema.org/a/wPb8ZrLj1RfFHiOhE5RPmhcDF)
-
-# Установка и использование игры Brain-Prime
-[![asciicast](https://asciinema.org/a/3dDBcHJpUyG4o6B4QLmsMLZAb.png)](https://asciinema.org/a/3dDBcHJpUyG4o6B4QLmsMLZAb)
+<a href="https://asciinema.org/a/tgXGzeHNzS8LYI0GgiOxI64eW" rel="nofollow">Brain-Even</a>
+<a href="https://asciinema.org/a/UfLRoduN4RE5JB3igidMU48SG" rel="nofollow">Brain-Calc</a>
+<a href="https://asciinema.org/a/Ck2OD9xT64lJRrJcrb4rlcAuz" rel="nofollow">Brain-GCD</a>
+<a href="https://asciinema.org/a/wPb8ZrLj1RfFHiOhE5RPmhcDF" rel="nofollow">Brain-Progression</a>
+<a href="https://asciinema.org/a/3dDBcHJpUyG4o6B4QLmsMLZAb" rel="nofollow">Brain-Prime</a>
