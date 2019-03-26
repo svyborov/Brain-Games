@@ -12,9 +12,28 @@
 $ npm install -g braingames_vsa 
 ```
 ## Usage
+```bash
+$ Welcome to the Brain Game!
+What number is missing in this progression?
 
+May I have your name? Sergey
+Hello, Sergey!
+
+Question: 14 .. 18 20 22 24 26 28
+Your answer: 16
+Correct!
+Question: 5 6 7 8 9 .. 11 12
+Your answer: 10
+Correct!
+Question: 12 15 18 21 .. 27 30 33
+Your answer: 24
+Correct!
+Congratulations, Sergey!
+```
 1. <a href="https://asciinema.org/a/tgXGzeHNzS8LYI0GgiOxI64eW" rel="nofollow">Brain-Even</a> <br>
 2. <a href="https://asciinema.org/a/UfLRoduN4RE5JB3igidMU48SG" rel="nofollow">Brain-Calc</a> <br>
 3. <a href="https://asciinema.org/a/Ck2OD9xT64lJRrJcrb4rlcAuz" rel="nofollow">Brain-GCD</a> <br>
 4. <a href="https://asciinema.org/a/wPb8ZrLj1RfFHiOhE5RPmhcDF" rel="nofollow">Brain-Progression</a> <br>
 5. <a href="https://asciinema.org/a/3dDBcHJpUyG4o6B4QLmsMLZAb" rel="nofollow">Brain-Prime</a> <br>
+$ brain-progression
+
