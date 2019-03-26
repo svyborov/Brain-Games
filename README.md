@@ -11,7 +11,7 @@
 ```bash
 $ npm install -g braingames_vsa 
 ```
-## Usage
+## Example
 ```bash
 $ brain-progression
 Welcome to the Brain Game!
